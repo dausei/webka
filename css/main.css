@@ -1,0 +1,173 @@
+body {
+  height: 100%;
+  padding-top: 56px;
+  font-family: "Arial Black";
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Arial Black";
+}
+
+
+p {
+  font-family: "Arial Black";
+}
+
+#gyms {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  background-color: black;
+  font-family: "Arial Black";
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.jumbotron {
+  background: url('https://images7.alphacoders.com/130/1300550.jpg') no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 150px 0;
+  margin-bottom: 0;
+  font-family: "Arial Black";
+}
+
+.jumbotron .btn-lg {
+  background-color: black;
+  border-color: black;
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.footer {
+  font-family: "Arial Black";
+  background-color: black;
+  color: #ffffff;
+  padding: 30px;
+  margin-top: 100px;
+  bottom: auto;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  width: 500px!important;
+  align-items: center;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+}
+
+.close {
+  align-self: flex-start!important;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.active {
+  display: block;
+}
+.slider {
+  min-height: 80px; 
+}
+
+.slider {
+	width: 80%; 
+	margin: auto; 
+	padding: 20px; 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+	border: 1px solid #ddd; 
+	background-color: #f9f9f9; 
+	min-height: 125px; 
+	position: relative; 
+	overflow: hidden; 
+  }
+  
+
+  .slide {
+	display: none;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 20px; 
+	text-align: center; 
+  }
+  
+
+  .slide h2 {
+	font-size: 2em; 
+	margin-bottom: 10px; 
+	color: #333; 
+  }
+
+
+  .slide p {
+	font-size: 1.2em; 
+	color: #666; 
+  }
+  
+  .active {
+	display: block;
+  }
+  .centered-title {
+    text-align: center; 
+    font-size: 2em; 
+    color: #333; 
+    margin-bottom: 20px; 
+    padding: 10px; 
+    border-bottom: 2px solid #666;
+  }
