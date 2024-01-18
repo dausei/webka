@@ -1,0 +1,18 @@
+{
+  "name": "real-time-chat-application-main",
+  "version": "1.0.0",
+  "description": "MyChat is a simple real-time chat application built using Node.js, Express, and WebSocket for server-side communication, and HTML/JavaScript for the client-side.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4"
+  }
+}
